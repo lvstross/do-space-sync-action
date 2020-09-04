@@ -1,7 +1,7 @@
 FROM python:3.7-alpine
 
-LABEL "com.github.actions.name"="DigitalOcean Upload Content"
-LABEL "com.github.actions.description"="Upload a directory or files to an DigitalOcean Space"
+LABEL "com.github.actions.name"="Upload Content to Digitalocean Spaces"
+LABEL "com.github.actions.description"="Upload a directory or files to an DigitalOcean Spaces"
 LABEL "com.github.actions.icon"="refresh-cw"
 LABEL "com.github.actions.color"="green"
 

@@ -1,0 +1,28 @@
+# action.yml
+name: 'Upload Content to Digitalocean Spaces'
+author: 'kodertroop'
+description: 'Upload a directory or files to an DigitalOcean Spaces'
+inputs:
+  SOURCE_DIR:
+    description: 'Source Dir form where files have to be uploaded'
+    required: true
+    default: './public'
+  SPACE_REGION:
+    description: 'Region of DO spaces'
+    required: true
+    default: 'blr1'
+  SPACE_ACCESS_KEY_ID:
+    description: 'DO spaces SPACE_ACCESS_KEY_ID'
+    required: true
+    default: ''
+  SPACE_SECRET_ACCESS_KEY:
+    description: 'DO spaces SPACE_SECRET_ACCESS_KEY'
+    required: true
+    default: ''
+  SUB_DIR:
+    description: 'Destination DIR'
+    required: false
+    default: 'mycontent/'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
