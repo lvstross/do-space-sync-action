@@ -58,4 +58,4 @@ This project is distributed under the [MIT license](LICENSE.md).
 
 ## Credits
 
-This project is forked from https://github.com/jakejarvis/s3-sync-action with small changes to make the s3 commands work with DigitalOcean.
+This project is forked from https://github.com/idlefingers/do-space-sync-action with small changes to make the s3 commands work with DigitalOcean.
