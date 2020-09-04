@@ -22,10 +22,6 @@ inputs:
     description: 'DO spaces SPACE_SECRET_ACCESS_KEY'
     required: true
     default: ''
-  SUB_DIR:
-    description: 'Destination DIR'
-    required: false
-    default: 'mycontent/'
 runs:
   using: 'docker'
   image: 'Dockerfile'
