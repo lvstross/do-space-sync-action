@@ -2,6 +2,9 @@
 name: 'Upload Content to Digitalocean Spaces'
 author: 'kodertroop'
 description: 'Upload a directory or files to an DigitalOcean Spaces'
+branding:
+  icon: 'arrow-up-circle'  
+  color: 'blue'
 inputs:
   SOURCE_DIR:
     description: 'Source Dir form where files have to be uploaded'
