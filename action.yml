@@ -10,10 +10,6 @@ inputs:
     description: 'Source Dir from where files have to be uploaded'
     required: true
     default: './public'
-  REMOTE_PATH:
-    description: 'Remote path where files are to be uploaded in DO space'
-    required: true
-    default: '/'
   SPACE_REGION:
     description: 'Region of DO spaces'
     required: true
