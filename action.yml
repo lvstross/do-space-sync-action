@@ -13,7 +13,7 @@ inputs:
   REMOTE_PATH:
     description: 'Remote path where files are to be uploaded in DO space'
     required: true
-    default: ''
+    default: '/'
   SPACE_REGION:
     description: 'Region of DO spaces'
     required: true
